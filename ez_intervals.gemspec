@@ -15,9 +15,11 @@
 # You should have received a copy of the GNU General Public License
 # along with ez_intervals. If not, see <https://www.gnu.org/licenses/>. 
 
+require File.expand_path('../lib/version.rb', __FILE__)
+
 Gem::Specification.new do |s|
     s.name        = 'ez_intervals'
-    s.version     = "1.0"
+    s.version     = EZ_INTERVALS::VERSION
     s.summary     = "Some useful interval stuffs"
     s.description = "Useful interval algorithms/contractors/separators based on ez_intervals library"
     s.authors     = ["Pierre Filiol"]
@@ -26,6 +28,8 @@ Gem::Specification.new do |s|
                      "NOTICE",
                      "README.md",
                      "ez_intervals.gemspec",
+                     "lib/ez_intervals.rb",
+                     "lib/version.rb",
                      "lib/algorithms/sivia.rb",
                      "lib/contractors/c_disk.rb",
                      "lib/contractors/s_disk.rb",
