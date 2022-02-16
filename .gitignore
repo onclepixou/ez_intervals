@@ -1,6 +1,7 @@
 *.gem
 *.png
-*.DS_Store 
+*.DS_Store
+*.pub 
 *.rbc
 /.config
 /coverage/
